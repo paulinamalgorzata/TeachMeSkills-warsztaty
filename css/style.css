@@ -1,38 +1,17 @@
-body {
+.web__container {
   display: flex;
-  align-items: center;
   flex-direction: column;
-  margin: 0;
-  font-family: "Montserrat", sans-serif;
-  letter-spacing: 0.1px;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  margin: 0;
+  align-items: center;
 }
 
 /* 1 SECTION - NAVIGATION */
-
-.web__container {
-  height: 777px;
-  width: 1440px;
-}
-
 .web__header {
-  width: 1322px;
-  height: 91px;
-  right: 59px;
-  top: 0px;
+  width: 1440px;
+  height: 777px;
 }
 
 .web__header-navigation {
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
   align-items: center;
   padding: 30px 200px;
@@ -104,7 +83,6 @@ h6 {
 /* 1 SECTION - CONTENT */
 .web__header-content {
   display: flex;
-  flex-direction: row;
   height: 682px;
   width: 1439px;
   left: -2px;
@@ -160,4 +138,66 @@ h6 {
   display: flex;
   height: 684px;
   width: auto;
+}
+
+/* 2 SECTION - TEXT */
+.web__video {
+  width: 1440px;
+  height: 878px;
+  background-color: palevioletred;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.web__video-text {
+  text-align: center;
+}
+
+.web__video-text h6 {
+  color: #96bb7c;
+}
+
+.web__video-text h3 {
+  color: #252b42;
+}
+
+.web__video-text p {
+  color: #737373;
+}
+
+.web__video-video {
+  display: flex;
+  align-items: center;
+}
+
+.web__video-video-jpg {
+  border: 0px transparent;
+  border-radius: 20px;
+  height: 363px;
+  width: 688px;
+}
+
+.web__popular-courses {
+  width: 1440px;
+  height: 761px;
+  background-color: blue;
+}
+
+.web__client-matters {
+  width: 1440px;
+  height: 1236px;
+  background-color: palevioletred;
+}
+
+.web__subscription {
+  width: 1440px;
+  height: 594px;
+  background-color: blue;
+}
+
+.web__footer {
+  width: 1440px;
+  height: 272px;
+  background-color: palevioletred;
 }
