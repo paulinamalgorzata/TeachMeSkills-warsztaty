@@ -60,7 +60,6 @@ li {
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
-  line-height: 24px;
   letter-spacing: 0.2px;
   color: #737373;
   gap: 240px;
@@ -122,6 +121,7 @@ li {
   font-weight: 700;
   font-size: 16px;
   color: #96bb7c;
+  margin-bottom: 30px;
 }
 .web__header-content-info h1 {
   font-style: normal;
@@ -130,7 +130,7 @@ li {
   line-height: 80px;
   letter-spacing: 0.2px;
   color: #252b42;
-  margin: 0px;
+  margin-bottom: 30px;
 }
 
 .web__header-content-info h4 {
@@ -141,6 +141,7 @@ li {
   letter-spacing: 0.2px;
   color: #737373;
   width: 458px;
+  margin-bottom: 30px;
 }
 
 .web__header-btn--transparent {
@@ -237,6 +238,7 @@ li {
   background-color: #e74040;
   width: 94px;
   height: 7px;
+  margin-bottom: 35px;
 }
 
 .web__courses-text h2 {
@@ -261,15 +263,222 @@ li {
   text-decoration: none;
   font-weight: 700;
   font-size: 14px;
-  line-height: 24px;
   color: #96bb7c;
 }
 
+/* 4 SECTION - TEXT */
 .web__client-matters {
   width: 1440px;
   height: 1236px;
-  background-color: palevioletred;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
+
+.web__client-matters-text {
+  text-align: center;
+  height: 134px;
+  width: 691px;
+  margin-top: 160px;
+  margin-left: 374px;
+  margin-bottom: 80px;
+}
+
+.web__client-matters-text h6 {
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.2px;
+  text-align: center;
+  color: #96bb7c;
+  margin-bottom: 10px;
+}
+
+.web__client-matters-text h2 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 50px;
+  letter-spacing: 0.2px;
+  text-align: center;
+  color: #252b42;
+  margin-bottom: 10px;
+}
+
+.web__client-matters-text p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  text-align: center;
+  color: #737373;
+}
+
+/* 4 SECTION - SERVICES */
+.web__client-matters-box {
+  height: 666px;
+  width: 710px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: row;
+  margin-left: 365px;
+}
+
+.web__client-matters-box-column {
+  height: 646px;
+  width: 348px;
+  display: flex;
+  flex-direction: column;
+}
+
+.web__client-matters-box-column-photo {
+  height: 300px;
+  width: 348px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.web__client-matters-box-column-photo img {
+  height: 300px;
+  width: 348px;
+}
+
+.web__client-matters-box-column-photo-tag {
+  background-color: #e74040;
+  height: 24px;
+  width: 51px;
+  margin-left: 20px;
+  margin-top: 20px;
+  border-radius: 3px;
+  padding: 0px 10px 0px 10px;
+}
+
+.web__client-matters-box-column-photo-tag h6 {
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.2px;
+  text-align: center;
+  color: #fff;
+}
+
+.web__client-matters-box-column-text {
+  height: 346px;
+  width: 348px;
+}
+
+.web__client-matters-box-column-text-frame {
+  height: 26px;
+  width: 298px;
+  margin-left: 25px;
+  margin-top: 25px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.web__client-matters-box-column-text-frame a {
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.2px;
+  color: #96bb7c;
+  text-decoration: none;
+}
+
+.web__client-matters-box-column-text-frame span {
+  height: 26px;
+  width: 50px;
+  border-radius: 20px;
+  background: #2d4059;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0.2px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 5px;
+}
+.web__client-matters-box-column-text-frame span h1 {
+  color: #ffce31;
+}
+
+.web__client-matters-box-column-text h5 {
+  font-size: 16px;
+  font-weight: 700;
+  text-align: left;
+  color: #252b42;
+  margin-left: 25px;
+  margin-bottom: 10px;
+}
+
+.web__client-matters-box-column-text p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  text-align: left;
+  color: #737373;
+  margin-left: 25px;
+  margin-bottom: 10px;
+}
+
+.web__client-matters-box-column-text-sale {
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.2px;
+  text-align: right;
+  color: #737373;
+  width: 83px;
+  margin-left: 25px;
+  margin-bottom: 10px;
+}
+
+.web__client-matters-box-column-text-sale span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #737373;
+}
+
+.web__client-matters-box-column-text-price {
+  font-size: 16px;
+  font-weight: 700;
+  color: #bdbdbd;
+  margin-bottom: 10px;
+  margin-left: 25px;
+  gap: 5px;
+}
+
+.web__client-matters-box-column-text-price span {
+  color: #ffab71;
+}
+
+.web__client-matters-box-column-text-button {
+  margin-left: 25px;
+  border: 1px solid #96bb7c;
+  border-radius: 37px;
+  width: 117px;
+  height: 28px;
+}
+
+.web__client-matters-box-column-text-button h6 {
+  color: #96bb7c;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  text-align: center;
+  gap: 10px;
+}
+
+.web__client-matters-box-column-text-button span {
+  font-size: 20px;
+}
+
 /* 5 SECTION - TEXT */
 .web__subscription {
   width: 1440px;
@@ -284,7 +493,8 @@ li {
 .web__subscription-text {
   height: 116px;
   width: 463px;
-  margin: 160px 488.5px 318px 488.5px;
+  margin-left: 488.5px;
+  margin-bottom: 80px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -313,27 +523,37 @@ li {
   letter-spacing: 0.2px;
   color: #fff;
 }
-/* 5 SECTION - FORM */
+
 .web__subscription-form {
   position: relative;
   width: 688px;
   height: 58px;
   margin-left: 376px;
-  border: 1px solid #e6e6e6;
+  border: 1px #e6e6e6;
   border-radius: 5px;
 }
 
 .web__subscription-form input {
-  color: #737373;
+  border: none;
+  box-sizing: border-box;
+  padding: 15px 117px 15px 20px;
+  width: 688px;
+  height: 58px;
+  background: #f9f9f9;
+  border: 1px solid #e6e6e6;
+  border-radius: 5px;
   font-size: 14px;
   font-weight: 400;
   line-height: 28px;
   letter-spacing: 0.2px;
   text-align: left;
+  color: #737373;
 }
 
 .web__subscription-form button {
   background-color: #96bb7c;
+  border-radius: 0px 5px 5px 0px;
+  border: 1px solid #e6e6e6;
   color: #ffffff;
   height: 58px;
   width: 117px;
@@ -342,6 +562,9 @@ li {
   line-height: 28px;
   letter-spacing: 0.2px;
   text-align: center;
+  position: absolute;
+  right: 0;
+  padding: 0 25px;
 }
 
 /* FOOTER */
