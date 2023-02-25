@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Workshop TeachMeSkills Front End</title>
+
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -19,8 +20,8 @@
       rel="stylesheet"
     />
     <link
-      href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css"
       rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
     />
   </head>
   <body>
@@ -50,8 +51,8 @@
                 </ul>
               </div>
             </nav>
-            <div class="web__header-right">
-              <a class="web__header-auth-link">Login</a>
+            <div class="web__header-right btn__pointer">
+              <a class="web__header-auth-link btn__pointer">Login</a>
               <button class="web__header-btn web__header-btn--primary">
                 <span>Join us</span>
               </button>
@@ -68,11 +69,13 @@
                   possibilities.
                 </h4>
               </div>
-              <div class="web__header-content-actions"></div>
-              <button class="web__header-btn">Join Us</button>
-              <button class="web__header-btn web__header-btn--transparent">
-                Learn More
-              </button>
+
+              <div class="btn__pointer">
+                <button class="web__header-btn">Join Us</button>
+                <button class="web__header-btn web__header-btn--transparent">
+                  Learn More
+                </button>
+              </div>
             </div>
             <div class="web__header-content-jpg">
               <img
@@ -99,6 +102,9 @@
               src="https://dc607.4shared.com/img/qZBxuwYLea/s24/18350125fc8/features-11-video-thumb?async&rand=0.2519105958843748"
               alt="Colored pencils in a container."
             />
+            <div class="web__video-card-button">
+              <a href="/">&#9654;</a>
+            </div>
           </div>
         </section>
         <section class="web__courses">
@@ -117,7 +123,7 @@
               Problems trying to resolve the conflict between the two major
               realms of Classical physics: Newtonian mechanics
             </p>
-            <h6>Learn More</h6>
+            <a href="/">Learn More</a>
           </div>
         </section>
         <!-- 4 SECTION - TEXT-->
@@ -165,7 +171,7 @@
                   <span>$6.48</span>
                 </div>
                 <div class="web__client-matters-box-column-text-button">
-                  <h6>Learn More <span> ></span></h6>
+                  <a href="/">Learn More <span> ></span></a>
                 </div>
               </div>
             </div>
@@ -194,15 +200,14 @@
                   keystroke away.
                 </p>
                 <div class="web__client-matters-box-column-text-sale">
-                  <span class="fa-regular fa-arrow-down-to-bracket"></span>15
-                  Sales
+                  <i class="fa-solid fa-download"></i>15 Sales
                 </div>
                 <div class="web__client-matters-box-column-text-price">
                   $16.48
                   <span>$6.48</span>
                 </div>
                 <div class="web__client-matters-box-column-text-button">
-                  <h6>Learn More <span> ></span></h6>
+                  <a href="/">Learn More <span> ></span></a>
                 </div>
               </div>
             </div>
@@ -219,7 +224,7 @@
             </p>
           </div>
           <!-- 5 SECTION - FORM -->
-          <div class="web__subscription-form">
+          <div class="web__subscription-form btn__pointer">
             <form action="#">
               <input type="text" placeholder="Your Email" />
               <button type="submit">Subscribe</button>
