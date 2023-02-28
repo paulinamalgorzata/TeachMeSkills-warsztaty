@@ -12,5 +12,5 @@ Spikerem był Eugeniusz Zujew - Front End Developer w EY.
 Projekt podzielony jest na 5 sekcji oraz footer.
 Do tworzenia strony korzystaliśmy z projektu w aplikacji Figma.
 Podczas spotkania online zaprezentowano sposoby layoutu stron internetowych.
-Szkolenie nauczyło mnie poprawnego i pomocnego komentowania elementów projektu.
-Przećwiczyliśmy zastosowanie funkcji display: flex do ułożenia elementów na stronie internetowej.
+Szkolenie nauczyło mnie poprawnego i pomocnego komentowania elementów projektu oraz właściwego nazewnictwa klas.
+Przećwiczyliśmy zastosowanie funkcji display: flex; do ułożenia elementów na stronie internetowej.
